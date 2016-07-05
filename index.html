@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>自媒体</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    
+    <style>
+    	.swiper-container{
+    		text-align: center;
+    	}
+    	.swiper-container .swiper-wrapper .swiper-slide img{ width: 100%; }
+        .M_Top{margin-top:23px;}
+    </style>
+</head>
+<body style="overflow: hidden;">
+	<div class="container">
+		<!--自媒体列表页-->
+		<div id="mian" class="w-page page-list">
+			<!-- 列表页头部 -->
+			<header class="header" id="albums-haeder">
+				<span class="headline">专辑列表</span>
+				<!-- 主页返回 -->
+				<span class="btn-back" id="albums-back">
+					<img src="images/h5_return_button.png">
+				</span>
+				<span id="nav-search">
+					<img src="images/iconsearch.png">
+				</span>
+			</header>
+			
+			<!-- 专辑内容-->
+			<section class="content" id="WWQQ-firstpage">
+				<!--swiper-->
+				<div class="swiper-container" id="swiperContainer">
+		            <div class="swiper-wrapper">
+		                <div class="swiper-slide">
+		                    <img src="images/jiemu.png">
+		                </div>
+		                <div class="swiper-slide">
+		                    <img src="images/tuisong.png">
+		                </div>
+		                <div class="swiper-slide">
+		                    <img src="images/yao.png">
+		                </div>
+		            </div>
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination"></div>
+		        <!-- Add Arrows -->
+		        </div>
+		        <!-- 最新更新 -->
+		        <p class="zuixin">最新更新</p>
+		        <div class="new_hot">
+		        	
+		        	<div class="kongwei"></div>
+		        	<div class="before_bg data1"><p class="juzhong"><img src="./images/20.gif"></p></div>
+		        	<div class="kongwei"></div>
+			        <div class="before_bg data2"><p class="juzhong"><img src="./images/20.gif"></p></div>
+			        <div class="kongwei"></div>
+			        <div class="before_bg data3"><p class="juzhong"><img src="./images/20.gif"></p></div>
+			        <div class="kongwei"></div>
+			        
+		        </div>
+		        <div class="new_hot1">
+
+		        	<div class="kongwei1"></div>
+		        	<div class="before_bg1 data4"><p class="juzhong"><img src="./images/20.gif"></p></div>
+		        	<div class="kongwei1"></div>
+			        <div class="before_bg1 data5"><p class="juzhong"><img src="./images/20.gif"></p></div>
+			        <div class="kongwei1"></div>
+			        <div class="before_bg1 data6"><p class="juzhong"><img src="./images/20.gif"></p></div>
+			        <div class="kongwei1"></div>
+
+		        </div>
+				<!-- 所有分类 -->
+				<p class="suoyouFL">所有分类</p>
+				<ul id="ccc">
+               	    <li class="fenlei_list" id="click_1">
+               	        <img src="images/icon_his.png" alt="加载失败" class="img_name"/>
+               	        <p><span class="tag_value">故事</span><a href="#"><img src="./images/iconfont-into.png" alt="故事"/></a></p>
+               	    </li>
+               	    <li class="fenlei_list" id="click_2">
+                        <img src="images/icon_ch_song.png" alt="加载失败" class="img_name"/>
+                        <p><span class="tag_value">儿歌</span><a href="#"><img src="./images/iconfont-into.png" alt="儿歌"/></a></p>
+                    </li>
+                    <li class="fenlei_list" id="click_3">
+               	        <img src="images/icon_teach.png" alt="加载失败" class="img_name"/>
+               	        <p><span class="tag_value">教育</span><a href="#"><img src="./images/iconfont-into.png" alt="教育"/></a></p>
+               	    </li>
+               	    <li class="fenlei_list" id="click_4">
+                        <img src="images/icon_science.png" alt="加载失败" class="img_name"/>
+                        <p><span class="tag_value">科普</span><a href="#"><img src="./images/iconfont-into.png" alt="科普"/></a></p>
+                    </li>
+                    <li class="fenlei_list" id="click_5">
+                        <img src="images/icon_fairy_tale.png" alt="加载失败" class="img_name"/>
+                        <p><span class="tag_value">童话</span><a href="#"><img src="./images/iconfont-into.png" alt="童话"/></a></p>
+                    </li>
+                    <li class="fenlei_list" id="click_6">
+                        <img src="images/icon_anime.png" alt="加载失败" class="img_name"/>
+                        <p><span class="tag_value">动漫</span><a href="#"><img src="./images/iconfont-into.png" alt="动漫"/></a></p>
+                    </li>
+                    <li class="fenlei_list" id="click_7">
+                        <img src="images/icon_edu.png" alt="加载失败" class="img_name"/>
+                        <p><span class="tag_value">文化</span><a href="#"><img src="./images/iconfont-into.png" alt="文化"/></a></p>
+                    </li>
+               	</ul>
+               	<div class="footer_ioc">
+               		<span class="_span">0</span>
+               	    <img src="./images/icon_end.png" alt="无刷新" class="ended_img"/>
+               	</div>
+			</section>
+		</div>
+
+
+
+		<!--专辑页-->
+		<div id="album" class="w-page page-next">
+			<header class="header">
+				<span id="zj_back" class="btn-back">
+					<img src="images/h5_return_button.png">
+				</span>
+				<span class="headline" id="headline">专辑</span>
+			</header>
+			<section class="content" id="content">
+				<ul id="Section"></ul>
+			</section>
+		</div>
+		<!-- 详情页 -->
+	 	<div class="w-page page-detail page-next">
+		<!-- 详情页头部 -->
+			<header class="header">
+				<span id="xq-back" class="btn-back" style="position: absolute;left: 0;text-align: left;text-indent: 6px;">
+					<img src="images/h5_return_button.png" style="width: 50px;">
+				</span>
+				<span class="headline">详情页</span>
+			</header>
+		<!-- 详情页内容 -->
+		<section class="content" id="WWQQ-secondPage">
+			<div class="columns">
+                <article class="columns-main"></article>
+            </div>
+            <!-- 列表内容 -->
+            <div class="content_"></div>
+		</section>				
+		</div>
+		<!-- 搜索 -->
+		<div id="search" class="w-page page-search page-next">
+			<header class="header">
+				<span id="seach_back" class="btn-back">
+					<img src="images/h5_return_button.png">
+				</span>
+				<span class="headline">搜索</span>
+			</header>
+			<section class="content">
+				<!-- 搜索框 -->
+		       	<form id="search-form">
+		       		<div class="search-box">
+			       		<input type="text" placeholder="你想听什么" id="input-search" value="">
+			       		<!-- 阻止回车提交表单 -->
+			       		<input type="text" style="display:none">
+		       			<div class="f-inner">
+		       				<div id="ico-clear" style="display: none"></div>
+		       				<button type="button" id="btn-search">搜索</button>
+		       			</div>
+		       		</div>
+		       	</form>
+		       	<div class="hot-search"></div>
+		       	<!-- 搜索结果展示 -->
+		       	<div id="search-show"></div>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/zepto.js"></script>
+    <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="js/base64.js"></script>
+    <script type="text/javascript" src="js/common_util.js"></script>
+    <script type="text/javascript" src="js/zmt.js"></script>
+	<!-- Initialize Swiper -->
+    <script>
+	var swiper = new Swiper('#swiperContainer', {
+    	//自动滑动
+    	autoplay:3000,
+    	//用户操作后，回到自动状态
+    	autoplayDisableOnInteraction : false,
+        paginationClickable: true,
+        spaceBetween: 0,
+        loop: true
+	});
+	
+     </script>
+</body>
+</html>
